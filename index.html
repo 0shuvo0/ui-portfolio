@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>0shuvo0 | Personal Portfolio</title>
+  </head>
+  <body>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+
+        <div class="loading-overlay fixed">
+
+          <div class="lds-ripple"><div></div><div></div></div><!--for loading animation-->
+
+          <!-- <span id="page-loading-text">Loading ...</span> -->
+          <button id="enter-site-btn" class="link-btn">
+            <span class="text">Enter Website</span>
+            <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+              <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+            </svg>
+          </button>
+        </div>
+
+        
+        <div id="page-wrapper">
+
+          <section class="section" id="hero">
+            <h1 class="hero-title back">
+              <div class="creative">Creative</div><br><div class="developer">Developer</div>
+            </h1>
+            <img id="hero-image" src="/images/dp.png" alt="">
+            <h1 class="hero-title front">
+              <div class="creative">Creative</div><br><div class="developer">Developer</div>
+            </h1>
+          </section><!-- Hero -->
+
+          
+
+  
+          <section class="section" id="intro">
+            <div class="container">
+              <div class="col left">
+                <h1 class="section-title back">About Me</h1>
+                <div class="img" data-lag="1">
+                  <img src="/images/about-me-1.png" alt="">
+                  <img loading="lazy" class="front-img" src="/images/about-me-2.png" alt="">
+                </div>
+                <h1 class="section-title front">About Me</h1>
+              </div>
+  
+              <div class="col right">
+                <div class="about-text" data-speed=".5">
+                  <span class="about-title">Hey there,</span><br>
+                  I'm <span class="highlight">Shuvo</span>, a <span class="highlight">creative</span> and <span class="highlight">passionate</span> frontend <span class="highlight">developer</span> with <span class="highlight">5 years of experience</span> crafting intuitive and visually appealing web experiences.<br>
+                  I believe in <span class="highlight">solving problems</span> first—the tools are just a means to an end. Whether it's building sleek user interfaces or optimizing performance, I focus on creating solutions that <span class="highlight">make a real impact</span>.
+  
+                  <div class="about-actions">
+                    <a data-lag=".035" href="https://github.com/0shuvo0" target="_blank" class="link-btn magnetic">
+                      <span class="text">GitHub Profile</span>
+                      <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                        <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+                      </svg>
+                      
+                    </a>
+                    <a data-lag=".015" href="/resume-of-shuvo.pdf" download="" target="_blank" class="link-btn magnetic">
+                      <span class="text">Downdload Resume</span>
+                      <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                        <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+  
+            <div class="custom-cursor"></div>
+          </section><!-- Intro --> 
+  
+          
+          <section class="section" id="skills">
+            <div class="container">
+              <img loading="lazy" data-lag=".8" class="developer-avatar" src="/images/developer-3d.webp" alt="">
+              <div class="skills-text">
+                <h3 class="skills-title">Skills</h3>
+                <p class="skills-info desktop">
+                  I specialize in frontend development using HTML, CSS, JavaScript, and Vue.js, creating responsive and interactive web applications. I'm experienced with Tailwind CSS, Three.js, and GSAP for styling, animations, and 3D graphics. On the backend, I work with Node.js and Firebase for data management and authentication. I also use Figma for UI/UX design and Git/GitHub for version control. Always eager to learn, I leverage AI-powered tools to enhance development efficiency and create seamless user experiences.
+                </p>
+                <p class="skills-info mobile" data-lag="1.35">
+                  Frontend developer skilled in HTML, CSS, JavaScript, and Vue.js. Experienced with Tailwind CSS, Three.js, GSAP, Firebase, and Node.js. Passionate about UI/UX, animations, and AI-powered development.
+                </p>
+              </div>
+    
+    
+              <div class="skills-slider" style="--total: 12">
+                <div class="skill-item" style="--pos: 1">
+                  <img loading="lazy" src="/images/skills-icons/html.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 2">
+                  <img loading="lazy" src="/images/skills-icons/css.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 3">
+                  <img loading="lazy" src="/images/skills-icons/js.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 4">
+                  <img loading="lazy" src="/images/skills-icons/vue.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 5">
+                  <img loading="lazy" src="/images/skills-icons/firebase.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 6">
+                  <img loading="lazy" src="/images/skills-icons/nodejs.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 7">
+                  <img loading="lazy" src="/images/skills-icons/figma.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 8">
+                  <img loading="lazy" src="/images/skills-icons/gsap.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 9">
+                  <img loading="lazy" src="/images/skills-icons/three.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 10">
+                  <img loading="lazy" src="/images/skills-icons/tailwind.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 11">
+                  <img loading="lazy" src="/images/skills-icons/github.svg" alt="">
+                </div>
+                <div class="skill-item" style="--pos: 12">
+                  <img loading="lazy" src="/images/skills-icons/ai.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </section><!-- Skills -->
+  
+  
+          <section class="section" id="projects">
+            <div class="container">
+              <h1 class="projects-title">Projects</h1>
+              <div class="content">
+                <div class="content-col projects-list">
+                  <p data-lag=".25" class="list-title">Recent works</p>
+                  <div data-lag=".5" class="list-item">
+                    <img loading="lazy" src="/images/projects/my-agreements.png" alt="">
+                    <img loading="lazy" class="project-copy-image" src="/images/projects/my-agreements.png" alt="">
+                  </div>
+                  <div data-lag=".75" class="list-item">
+                    <img loading="lazy" src="/images/projects/pic-magic.png" alt="">
+                    <img loading="lazy" class="project-copy-image" src="/images/projects/pic-magic.png" alt="">
+                  </div>
+                  <div data-lag="1" class="list-item">
+                    <img loading="lazy" src="/images/projects/rate-my-physique.png" alt="">
+                    <img loading="lazy" class="project-copy-image" src="/images/projects/rate-my-physique.png" alt="">
+                  </div>
+                </div>
+  
+                <div class="content-col projects-info">
+                  <h2 class="project-title" data-lag=".1">My Agreements</h2>
+                  <p class="project-description" data-lag=".25">My Agreements is a platrom where users can create and manage agreement and invite others people to sign the agreement.</p>
+                  
+                  <a data-lag=".35" href="https://my-agreements.com/" target="_blank" class="project-link link-btn magnetic">
+                    <span class="text">View Project</span>
+                    <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                      <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+                    </svg>
+                  </a>
+                </div>
+  
+                <div class="content-col projects-img">
+                  <div class="img">
+                    <img loading="lazy" class="original" src="/images/projects/my-agreements.png" alt="">
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </section><!-- Projects -->
+  
+  
+          <div class="section" id="contact">
+            <canvas id="cantact-canvas"></canvas>
+            <div class="loading-overlay pointer-fix"></div>
+            <a data-lag=".5" href="mailto:0mdshuvo0@gmail.com" target="_blank" class="link-btn magnetic">
+              <span class="text">Send Email</span>
+              <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+              </svg>
+              
+            </a>
+            <a data-lag=".35" href="https://github.com/0shuvo0" target="_blank" class="link-btn github magnetic">
+              <span class="text">GitHub Profile</span>
+              <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+              </svg>
+              
+            </a>
+            <a data-lag=".15" href="/resume-of-shuvo.pdf" download="" target="_blank" class="link-btn resume magnetic">
+              <span class="text">Downdload Resume</span>
+              <svg class="icon"  width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M131.584 37.9976L37.6783 131.903" stroke="black" stroke-width="12"/>
+                <path d="M58.7941 36.4067L131.915 38.3282L130.468 108.081" stroke="black" stroke-width="12"/>
+              </svg>
+            </a>
+  
+  
+            <div class="loading-overlay main">
+              Loading ...
+            </div>
+          </div><!-- Contact -->
+        </div>
+
+
+
+      </div><!-- #smooth-content -->
+    </div><!-- #smooth-wrapper -->
+
+    <script src="/ScrollSmoother.js"></script>
+    <script src="/SplitText.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
